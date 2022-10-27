@@ -1,0 +1,6 @@
+# Ignore unnecessary files
+go.sum
+package.json
+node_modules
+package-lock.json
+yarn.lock
