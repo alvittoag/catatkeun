@@ -1,10 +1,10 @@
 {
-  name: "catetkeun",
+  "name": "catetkeun",
   "version": "0.0.1",
   "description": "App Catetkeun",
   "main": "src/index.jsx",
-  "repository": "https://github.com/lendradxx/catetkeun",
-  "author": "lendradxx",
+  "repository": "https://github.com/kodingkeun/catetkeun",
+  "author": "kodingkeun",
   "license": "MIT",
   "private": true,
   "dependencies": {
