@@ -44,6 +44,7 @@ function App() {
       {/* Mobile */}
       <div className="md:hidden bg-white">
         <h1>Mobile in here</h1>
+        {/* Component mobile in here */}
       </div>
     </>
   );
