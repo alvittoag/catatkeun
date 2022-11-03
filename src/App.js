@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Navbar } from "./components/Navbar";
 import { Sidebar } from "./components/Sidebar";
 import { Root } from "./pages/rootPages/Root";
+import { NavbarMobile } from "./componentsMobile/NavbarMobile";
 
 function App() {
   const [toggleSidebar, setToggleSidebar] = useState(true);
@@ -43,8 +44,8 @@ function App() {
 
       {/* Mobile */}
       <div className="md:hidden bg-white">
-        <h1>Mobile in here</h1>
-        {/* Component mobile in here */}
+        {/* contoh  */}
+        <NavbarMobile />
       </div>
     </>
   );
