@@ -6,8 +6,10 @@ import { Link } from "react-router-dom";
 
 export const Sidebar = ({ toggleSidebar }) => {
   return (
-    <div className="mt-1 w-full p-4">
-      <h1 className="flex text-xs font-medium py-1 text-[#2A6DB0] justify-center">MENU</h1>
+    <div className="mt-1 w-full p-1">
+      <h1 className="flex text-xs font-medium py-1 text-[#2A6DB0] justify-center">
+        MENU
+      </h1>
       <div className="flex py-2 flex-col gap-3">
         {/* Menu 1 */}
         <Link to={"/"}>
