@@ -14,7 +14,7 @@ export const Sidebar = ({ toggleSidebar }) => {
             <div className="">
               <AiFillHome size={20} />
             </div>
-            {toggleSidebar ? null : <p>Home</p>}
+            {toggleSidebar ? null : <p>Hozme</p>}
           </div>
         </Link>
 
