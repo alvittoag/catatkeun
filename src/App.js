@@ -11,12 +11,12 @@ function App() {
   return (
     <div className="flex">
       {/* Sidebar */}
-      <div className="bg-blue-500 fixed bottom-0 w-full">
+      <div className="bg-slate-200 fixed bottom-0 w-full">
         <Sidebar toggleSidebar={toggleSidebar} />
       </div>
 
       {/* Navbar and Pages */}
-      <div className="bg-red-500 invisible">
+      <div className="bg-red-500 hidden">
         <Navbar handleToggleSidebar={handleToggleSidebar} />
         <div className="bg-gray-100 h-screen">
           <Root />

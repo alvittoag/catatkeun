@@ -11,18 +11,18 @@ export const Sidebar = ({ toggleSidebar }) => {
         {/* Menu 1 */}
         <Link to={"/"}>
           <div className="p-5 w-1/5">
-            <div className="">
-              <AiFillHome size={20} />
+            <div className="text-xl">
+              <AiFillHome size={25} />
             </div>
-            {toggleSidebar ? null : <p>Hozme</p>}
+            {toggleSidebar ? null : <p>Home</p>}
           </div>
         </Link>
 
         {/* Menu 2 */}
         <Link to={"/todolist"}>
           <div className="p-5 w-1/5">
-            <div className="">
-              <RiTodoFill size={20} />
+            <div className="text-xl">
+              <RiTodoFill size={25} />
             </div>
             {toggleSidebar ? null : <p>Todo List</p>}
           </div>
@@ -31,8 +31,8 @@ export const Sidebar = ({ toggleSidebar }) => {
         {/* Menu 3 */}
         <Link to={"/schedule"}>
           <div className="p-5 w-1/5">
-            <div className="">
-              <AiFillSchedule size={20} />
+            <div className="text-xl">
+              <AiFillSchedule size={25} />
             </div>
             {toggleSidebar ? null : <p>Schedule Manager</p>}
           </div>
@@ -41,7 +41,7 @@ export const Sidebar = ({ toggleSidebar }) => {
         {/* Menu 4 */}
         <Link to={"/chat"}>
           <div className="p-5 w-1/5">
-            <div className="">
+            <div className="text-xl">
               <BsFillChatSquareTextFill size={16} />
             </div>
             {toggleSidebar ? null : <p>Chat</p>}
@@ -51,8 +51,8 @@ export const Sidebar = ({ toggleSidebar }) => {
         {/* Menu 5 */}
         <Link to={"/group"}>
           <div className="p-5 w-1/5">
-            <div className="">
-              <MdGroup size={20} />
+            <div className="text-xl">
+              <MdGroup size={25} />
             </div>
             {toggleSidebar ? null : <p>Group</p>}
           </div>
