@@ -45,7 +45,7 @@ const NavbarMobile = () => {
             </svg>
           </div>
           <input
-            type="search"
+            type="text"
             className="p-4 pl-10 w-full text-sm text-gray-900 rounded-3xl"
             placeholder="Search your note ..."
             required

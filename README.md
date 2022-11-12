@@ -1,4 +1,3 @@
 # Catetkeun App
-Before use don't forget npm install
 
-Running : npm start
+### Task 1 Mobile : `Proccess`
