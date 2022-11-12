@@ -1,28 +1,35 @@
-import { useState } from "react";
-import { Navbar } from "./components/Navbar";
-import { Sidebar } from "./components/Sidebar";
-import { Root } from "./pages/rootPages/Root";
+import BottomNav from "./MobileComponents/BottomNav";
+import NavbarMobile from "./MobileComponents/NavbarMobile";
+import { RootPages } from "./pages/rootPages/RootPages";
 
 function App() {
-  const [toggleSidebar, setToggleSidebar] = useState(true);
-  const handleToggleSidebar = () => {
-    setToggleSidebar(!toggleSidebar);
-  };
   return (
-    <div className="flex">
-      {/* Sidebar */}
-      <div className="bg-slate-200 fixed bottom-0 w-full">
-        <Sidebar toggleSidebar={toggleSidebar} />
+    <>
+      {/* Tablet and Desktop !Comming Soon */}
+      <div className="hidden md:block">
+        <h1>Tablet And Desktop Comming Soon</h1>
       </div>
 
-      {/* Navbar and Pages */}
-      <div className="bg-red-500 hidden">
-        <Navbar handleToggleSidebar={handleToggleSidebar} />
-        <div className="bg-gray-100 h-screen">
-          <Root />
+      {/* Mobile Version */}
+      <div className="md:hidden">
+        <div className="flex flex-col">
+          {/* Navbar */}
+          <div className="fixed -mt-[10px] w-full">
+            <NavbarMobile />
+          </div>
+
+          {/* Content */}
+          <div>
+            <RootPages />
+          </div>
+
+          {/* Bottom Navbar */}
+          <div className="fixed -mb-2 bottom-0 w-full">
+            <BottomNav />
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

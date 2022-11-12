@@ -5,4 +5,8 @@ package.json
 node_modules
 package-lock.json
 yarn.lock
+firebase.json
+.firebaserc
+build
+.firebase
 >>>>>>> 5ed8a68089f4dd4f918e93106347dc581a68b4fc
